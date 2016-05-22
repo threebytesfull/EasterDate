@@ -1,6 +1,6 @@
 # EasterDate
 
-[![CI Status](http://img.shields.io/travis/Rufus Cable/EasterDate.svg?style=flat)](https://travis-ci.org/Rufus Cable/EasterDate)
+[![CI Status](http://img.shields.io/travis/threebytesfull/EasterDate.svg?style=flat)](https://travis-ci.org/threebytesfull/EasterDate)
 [![Version](https://img.shields.io/cocoapods/v/EasterDate.svg?style=flat)](http://cocoapods.org/pods/EasterDate)
 [![License](https://img.shields.io/cocoapods/l/EasterDate.svg?style=flat)](http://cocoapods.org/pods/EasterDate)
 [![Platform](https://img.shields.io/cocoapods/p/EasterDate.svg?style=flat)](http://cocoapods.org/pods/EasterDate)
