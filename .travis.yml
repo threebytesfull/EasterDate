@@ -20,7 +20,7 @@ env:
     - DESTINATION="OS=9.3,name=iPhone 6S Plus" SCHEME="$IOS_FRAMEWORK_SCHEME" SDK="$IOS_SDK" POD_LINT="NO"
     - DESTINATION="arch=x86_64"                SCHEME="$OSX_FRAMEWORK_SCHEME" SDK="$OSX_SDK" POD_LINT="NO"
 script:
-  - set -o pipefile
+  - set -o pipefail
   - xcodebuild -version
   - xcodebuild -showsdks
 
