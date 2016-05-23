@@ -1,20 +1,26 @@
 use_frameworks!
 
-def testing_pods
+def build_pods
+    pod 'EasterDate', :path => '../'
+end
+
+def test_pods
     pod 'Quick', '~> 0.8'
     pod 'Nimble', '~> 3.0'
 end
 
-def target_pods
-    pod 'EasterDate', :path => '../'
+target 'EasterDate Example iOS' do
+    build_pods
+
+    target 'EasterDate Tests iOS' do
+        test_pods
+    end
 end
 
-target 'EasterDate_Example' do
-    target_pods
+target 'EasterDate Example Mac' do
+    build_pods
 
-    target 'EasterDate_Tests' do
-        inherit! :search_paths
-        target_pods
-        testing_pods
+    target 'EasterDate Tests Mac' do
+        test_pods
     end
 end

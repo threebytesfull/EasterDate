@@ -1,8 +1,8 @@
 {
   "name": "EasterDate",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "Easter date calculation for NSDate",
-  "description": "This CocoaPod extends `NSDate` with class methods to calculate the dates of\nWestern and Eastern Orthodox Easter.",
+  "description": "This CocoaPod extends `NSDate` with class methods to calculate the dates of Western and Eastern Orthodox Easter.",
   "homepage": "https://github.com/threebytesfull/EasterDate",
   "license": {
     "type": "MIT",
@@ -13,11 +13,12 @@
   },
   "source": {
     "git": "https://github.com/threebytesfull/EasterDate.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "social_media_url": "https://twitter.com/threebytesfull",
   "platforms": {
-    "ios": "8.0"
+    "ios": "8.0",
+    "osx": "10.10"
   },
   "source_files": "EasterDate/Classes/**/*",
   "frameworks": "Foundation"

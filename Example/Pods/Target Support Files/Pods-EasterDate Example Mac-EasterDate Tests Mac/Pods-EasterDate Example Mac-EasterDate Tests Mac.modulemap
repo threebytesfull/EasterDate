@@ -1,0 +1,6 @@
+framework module Pods_EasterDate_Example_Mac_EasterDate_Tests_Mac {
+  umbrella header "Pods-EasterDate Example Mac-EasterDate Tests Mac-umbrella.h"
+
+  export *
+  module * { export * }
+}

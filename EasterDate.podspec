@@ -1,11 +1,10 @@
 Pod::Spec.new do |s|
   s.name             = 'EasterDate'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Easter date calculation for NSDate'
 
   s.description      = <<-DESC
-This CocoaPod extends `NSDate` with class methods to calculate the dates of
-Western and Eastern Orthodox Easter.
+This CocoaPod extends `NSDate` with class methods to calculate the dates of Western and Eastern Orthodox Easter.
                        DESC
 
   s.homepage         = 'https://github.com/threebytesfull/EasterDate'
@@ -14,6 +13,7 @@ Western and Eastern Orthodox Easter.
   s.source           = { :git => 'https://github.com/threebytesfull/EasterDate.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/threebytesfull'
   s.ios.deployment_target = '8.0'
+  s.osx.deployment_target = '10.10'
   s.source_files = 'EasterDate/Classes/**/*'
   s.frameworks = 'Foundation'
 end
