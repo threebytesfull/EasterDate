@@ -879,7 +879,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.EasterDate-Example-MacTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasterDate_Example_Mac.app/Contents/MacOS/EasterDate_Example_Mac";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasterDate Example Mac.app/Contents/MacOS/EasterDate Example Mac";
 			};
 			name = Debug;
 		};
@@ -897,7 +897,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.EasterDate-Example-MacTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasterDate_Example_Mac.app/Contents/MacOS/EasterDate_Example_Mac";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasterDate Example Mac.app/Contents/MacOS/EasterDate Example Mac";
 			};
 			name = Release;
 		};
