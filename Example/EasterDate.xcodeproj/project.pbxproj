@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		122D576D9418A8C7D7681E13 /* Pods_EasterDate_Example_EasterDate_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41875216C11E31F81B59894 /* Pods_EasterDate_Example_EasterDate_Tests.framework */; };
 		4EE16365F13B391A41071BC8 /* Pods_EasterDate_Example_Mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7564B9FA217EDC6838B59F86 /* Pods_EasterDate_Example_Mac.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -20,9 +19,7 @@
 		6990D05D1CF31023009719D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6990D05C1CF31023009719D5 /* Assets.xcassets */; };
 		6990D0601CF31023009719D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6990D05E1CF31023009719D5 /* Main.storyboard */; };
 		6990D0741CF31F14009719D5 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		7B2BED95B4730E4E35851ECD /* Pods_EasterDate_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F222B358766C9072CAAC5B2 /* Pods_EasterDate_Example.framework */; };
 		9C767760C255032DED4E2409 /* Pods_EasterDate_Example_iOS_EasterDate_Tests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F1A5977C6AFE19C99554A8 /* Pods_EasterDate_Example_iOS_EasterDate_Tests_iOS.framework */; };
-		A2C0B432CDA7854A72495BB6 /* Pods_EasterDate_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2919EAC1315C3026AFE1E498 /* Pods_EasterDate_Tests.framework */; };
 		C71682AF5E3A93F91FE7FEF7 /* Pods_EasterDate_Example_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E658309601391DB9EA3CD7F /* Pods_EasterDate_Example_iOS.framework */; };
 		E1FF3E16B4C9221EED9B8246 /* Pods_EasterDate_Example_Mac_EasterDate_Tests_Mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51368E14DB45F655A9EB17E6 /* Pods_EasterDate_Example_Mac_EasterDate_Tests_Mac.framework */; };
 /* End PBXBuildFile section */
@@ -97,7 +94,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B2BED95B4730E4E35851ECD /* Pods_EasterDate_Example.framework in Frameworks */,
 				C71682AF5E3A93F91FE7FEF7 /* Pods_EasterDate_Example_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -106,8 +102,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2C0B432CDA7854A72495BB6 /* Pods_EasterDate_Tests.framework in Frameworks */,
-				122D576D9418A8C7D7681E13 /* Pods_EasterDate_Example_EasterDate_Tests.framework in Frameworks */,
 				9C767760C255032DED4E2409 /* Pods_EasterDate_Example_iOS_EasterDate_Tests_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -885,7 +879,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.EasterDate-Example-MacTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasterDate_Example_Mac.app/Contents/MacOS/EasterDate_Example_Mac";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasterDate Example Mac.app/Contents/MacOS/EasterDate Example Mac";
 			};
 			name = Debug;
 		};
@@ -903,7 +897,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.EasterDate-Example-MacTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasterDate_Example_Mac.app/Contents/MacOS/EasterDate_Example_Mac";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasterDate Example Mac.app/Contents/MacOS/EasterDate Example Mac";
 			};
 			name = Release;
 		};
