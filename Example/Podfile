@@ -24,3 +24,11 @@ target 'EasterDate Example Mac' do
         test_pods
     end
 end
+
+target 'EasterDate Example tvOS' do
+    build_pods
+
+    target 'EasterDate Tests tvOS' do
+        test_pods
+    end
+end

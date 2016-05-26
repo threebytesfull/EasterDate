@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_EasterDate_Example_tvOS_EasterDate_Tests_tvOS : NSObject
+@end
+@implementation PodsDummy_Pods_EasterDate_Example_tvOS_EasterDate_Tests_tvOS
+@end
