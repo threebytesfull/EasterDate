@@ -1,5 +1,5 @@
 PODS:
-  - EasterDate (0.6.0)
+  - EasterDate (0.6.1)
 
 DEPENDENCIES:
   - EasterDate (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  EasterDate: ed94cfd03c05c89c0dc3c96adb91ea93b1cb1155
+  EasterDate: 9683fd4be753011886bde20410e05a4b150eaca0
 
 PODFILE CHECKSUM: c67ce1a105fd1196dcba943d14463bf20a570893
 
