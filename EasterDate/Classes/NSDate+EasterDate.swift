@@ -11,13 +11,15 @@ import Foundation
 extension NSDate {
     /// Returns the date of Easter Sunday in the Gregorian calendar
     /// for the specified year.
+    #if swift(>=3.0)
     public class func westernEasterDateForYear(_ year: Int) -> NSDate? {
-        #if swift(>=3.0)
-            return self.westernEasterDate(year: year)
-        #else
-            return self.westernEasterDate(year)
-        #endif
+        return self.westernEasterDate(year: year)
     }
+    #else
+    public class func westernEasterDateForYear(year: Int) -> NSDate? {
+        return self.westernEasterDate(year)
+    }
+    #endif
 
     public class func westernEasterDate(year: Int) -> NSDate? {
         guard year >= 1583 else {
@@ -60,13 +62,15 @@ extension NSDate {
 
     /// Returns the date of Eastern Orthodox Easter in the Julian calendar
     /// for the specified year.
+    #if swift(>=3.0)
     public class func easternOrthodoxEasterDateForYear(_ year: Int) -> NSDate? {
-        #if swift(>=3.0)
-            return self.easternOrthodoxEasterDate(year: year)
-        #else
-            return self.easternOrthodoxEasterDate(year)
-        #endif
+        return self.easternOrthodoxEasterDate(year: year)
     }
+    #else
+    public class func easternOrthodoxEasterDateForYear(year: Int) -> NSDate? {
+        return self.easternOrthodoxEasterDate(year)
+    }
+    #endif
 
     public class func easternOrthodoxEasterDate(year: Int) -> NSDate? {
         guard (1900...2099).contains(year) else {
