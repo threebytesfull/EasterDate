@@ -62,5 +62,19 @@ matrix:
         - export SWIFT_SNAPSHOT=swift-DEVELOPMENT-SNAPSHOT-2016-05-09-a
         - curl https://swift.org/builds/development/xcode/$SWIFT_SNAPSHOT/$SWIFT_SNAPSHOT-osx.pkg -o swift.pkg
         - sudo installer -pkg swift.pkg -target /
+    # Swift Package Manager Builds
+    - script:
+      - set -o pipefail
+      - TOOLCHAINS=swift swift build
+      - TOOLCHAINS=swift swift test
+      env: JOB="Swift Package Manager, Swift 3.0"
+      os: osx
+      osx_image: xcode7.3
+      language: objective-c
+      before_install:
+        - export SWIFT_SNAPSHOT=swift-DEVELOPMENT-SNAPSHOT-2016-05-09-a
+        - curl https://swift.org/builds/development/xcode/$SWIFT_SNAPSHOT/$SWIFT_SNAPSHOT-osx.pkg -o swift.pkg
+        - sudo installer -pkg swift.pkg -target /
+        - TOOLCHAINS=swift swift -version
   exclude:
     - script: placeholder
