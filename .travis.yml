@@ -76,5 +76,27 @@ matrix:
         - curl https://swift.org/builds/development/xcode/$SWIFT_SNAPSHOT/$SWIFT_SNAPSHOT-osx.pkg -o swift.pkg
         - sudo installer -pkg swift.pkg -target /
         - TOOLCHAINS=swift swift -version
+    # Linux Builds
+    - script:
+      - set -o pipefail
+      - swift build
+      - swift test
+      env: JOB="Linux, Swift 3.0"
+      dist: trusty
+      sudo: required
+      language: generic
+      before_install:
+        - wget -q -O - https://swift.org/keys/all-keys.asc | gpg --import -
+        - cd ..
+        - gpg --keyserver hkp://pool.sks-keyservers.net --refresh-keys Swift
+        - export SWIFT_SNAPSHOT=swift-DEVELOPMENT-SNAPSHOT-2016-05-09-a
+        - export SWIFT_URL=https://swift.org/builds/development/ubuntu1404/$SWIFT_SNAPSHOT/$SWIFT_SNAPSHOT-ubuntu14.04.tar.gz
+        - wget $SWIFT_URL
+        - wget $SWIFT_URL.sig
+        - gpg --verify $SWIFT_SNAPSHOT-ubuntu14.04.tar.gz.sig
+        - tar xzf $SWIFT_SNAPSHOT-ubuntu14.04.tar.gz
+        - export PATH="${PWD}/${SWIFT_SNAPSHOT}-ubuntu14.04/usr/bin:${PATH}"
+        - cd EasterDate
+        - swift -version
   exclude:
     - script: placeholder
