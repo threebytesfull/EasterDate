@@ -1,7 +1,5 @@
-import EasterDate
 import XCTest
-
-import Foundation
+@testable import EasterDate
 
 class EasterDateTests: XCTestCase {
 
@@ -70,4 +68,15 @@ class EasterDateTests: XCTestCase {
             XCTAssertNil(easter)
         }
     }
+}
+extension EasterDateTests {
+	static var allTests : [(String, (EasterDateTests) -> () throws -> Void)] {
+		return [
+			("testWesternEasterBeforeGregorianCalendar", testWesternEasterBeforeGregorianCalendar),
+			("testWesternEasterForGregorianCalendar", testWesternEasterForGregorianCalendar),
+            ("testOrthodoxEasterBefore1900", testOrthodoxEasterBefore1900),
+            ("testOrthodoxEasterBetween1900And2099", testOrthodoxEasterBetween1900And2099),
+            ("testOrthodoxEasterAfter2099", testOrthodoxEasterAfter2099),
+		]
+	}
 }
