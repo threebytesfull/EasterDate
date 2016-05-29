@@ -50,7 +50,7 @@ extension NSDate {
         components.month = month
         components.day = day
         components.hour = 12
-        components.timeZone = NSTimeZone(forSecondsFromGMT: 0)
+        components.timeZone = NSTimeZone(name: "GMT")
 
         let calendar = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)!
         #if swift(>=3.0)
@@ -94,7 +94,7 @@ extension NSDate {
         components.month = month
         components.day = day + 13
         components.hour = 12
-        components.timeZone = NSTimeZone(forSecondsFromGMT: 0)
+        components.timeZone = NSTimeZone(name: "GMT")
 
         let calendar = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)!
         #if swift(>=3.0)
