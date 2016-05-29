@@ -1,6 +1,0 @@
-framework module EasterDate {
-  umbrella header "EasterDate-tvOS-umbrella.h"
-
-  export *
-  module * { export * }
-}

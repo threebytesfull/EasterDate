@@ -1,5 +1,15 @@
 # EasterDate Change Log
 
+## 0.6.0 (2016-05-29)
+
+##### Enhancements
+
+* Add support for Swift Package Manager
+
+##### Bug Fixes
+
+* None.
+
 ## 0.5.0 (2016-05-29)
 
 ##### Enhancements
