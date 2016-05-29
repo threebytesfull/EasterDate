@@ -71,8 +71,14 @@ class ViewController: UIViewController {
         }
     }
 
-    @IBAction func stepperValueChanged(sender: AnyObject) {
+    #if swift(>=3.0)
+    @IBAction func stepperValueChanged(sender: UIStepper) {
         updateEasterDates()
     }
+    #else
+    @IBAction func stepperValueChangedWithSender(sender: AnyObject) {
+        updateEasterDates()
+    }
+    #endif
 }
 
