@@ -1,5 +1,7 @@
 # EasterDate
 
+[![Swift 2.2](https://img.shields.io/badge/Swift-2.2-orange.svg?style=flat)](https://developer.apple.com/swift/)
+[![Swift 3.0](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
 [![CI Status](http://img.shields.io/travis/threebytesfull/EasterDate.svg?style=flat)](https://travis-ci.org/threebytesfull/EasterDate)
 [![Version](https://img.shields.io/cocoapods/v/EasterDate.svg?style=flat)](http://cocoapods.org/pods/EasterDate)
 [![License](https://img.shields.io/cocoapods/l/EasterDate.svg?style=flat)](http://cocoapods.org/pods/EasterDate)

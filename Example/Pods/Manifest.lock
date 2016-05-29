@@ -1,22 +1,16 @@
 PODS:
-  - EasterDate (0.3.0)
-  - Nimble (4.0.1)
-  - Quick (0.9.2)
+  - EasterDate (0.4.0-beta.1)
 
 DEPENDENCIES:
   - EasterDate (from `../`)
-  - Nimble (~> 4.0)
-  - Quick (~> 0.9)
 
 EXTERNAL SOURCES:
   EasterDate:
     :path: ../
 
 SPEC CHECKSUMS:
-  EasterDate: 9decee29ba97e75bfcdf770492fec5288e8929ce
-  Nimble: 0f3c8b8b084cda391209c3c5efbb48bedeeb920a
-  Quick: 18d057bc66451eedd5d1c8dc99ba2a5db6e60226
+  EasterDate: 0c7309b115a49d206ecabda7886e7409d159faa0
 
-PODFILE CHECKSUM: f8ef1507bc5cf8966512eb72b7c950b54620e862
+PODFILE CHECKSUM: c67ce1a105fd1196dcba943d14463bf20a570893
 
 COCOAPODS: 1.0.0

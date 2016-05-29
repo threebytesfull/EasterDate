@@ -22,7 +22,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let year = NSCalendar.currentCalendar().components([.Year], fromDate: NSDate()).year
+        #if swift(>=3.0)
+            let year = NSCalendar.current().components([.year], from: NSDate()).year
+        #else
+            let year = NSCalendar.currentCalendar().components([.Year], fromDate: NSDate()).year
+        #endif
         stepper.minimumValue = Double(year - 10)
         stepper.maximumValue = Double(year + 10)
         stepper.value = Double(year)
@@ -34,13 +38,22 @@ class ViewController: UIViewController {
         let year = Int(stepper.value)
 
         let formatter = NSDateFormatter()
-        formatter.dateStyle = .MediumStyle
-        formatter.timeStyle = .NoStyle
+        #if swift(>=3.0)
+            formatter.dateStyle = .mediumStyle
+            formatter.timeStyle = .noStyle
+        #else
+            formatter.dateStyle = .MediumStyle
+            formatter.timeStyle = .NoStyle
+        #endif
 
         westernTitleLabel.text = "Western Easter \(year)"
 
         if let westernEaster = NSDate.westernEasterDateForYear(year) {
-            westernEasterLabel.text = formatter.stringFromDate(westernEaster)
+            #if swift(>=3.0)
+                westernEasterLabel.text = formatter.string(from: westernEaster)
+            #else
+                westernEasterLabel.text = formatter.stringFromDate(westernEaster)
+            #endif
         } else {
             westernEasterLabel.text = "unknown"
         }
@@ -48,14 +61,24 @@ class ViewController: UIViewController {
         orthodoxTitleLabel.text = "Orthodox Easter \(year)"
 
         if let orthodoxEaster = NSDate.easternOrthodoxEasterDateForYear(year) {
-            orthodoxEasterLabel.text = formatter.stringFromDate(orthodoxEaster)
+            #if swift(>=3.0)
+                orthodoxEasterLabel.text = formatter.string(from: orthodoxEaster)
+            #else
+                orthodoxEasterLabel.text = formatter.stringFromDate(orthodoxEaster)
+            #endif
         } else {
             orthodoxEasterLabel.text = "unknown"
         }
     }
 
-    @IBAction func stepperValueChanged(sender: AnyObject) {
+    #if swift(>=3.0)
+    @IBAction func stepperValueChanged(sender: UIStepper) {
         updateEasterDates()
     }
+    #else
+    @IBAction func stepperValueChangedWithSender(sender: AnyObject) {
+        updateEasterDates()
+    }
+    #endif
 }
 

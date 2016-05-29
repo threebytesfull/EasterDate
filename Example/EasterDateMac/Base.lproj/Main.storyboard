@@ -673,7 +673,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="fqG-tC-pGG">
-                                <rect key="frame" x="153" y="207" width="174" height="22"/>
+                                <rect key="frame" x="153" y="228" width="174" height="22"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Western Easter Date" id="dPW-nF-dRA">
                                     <font key="font" size="18" name=".AppleSystemUIFont"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -681,7 +681,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="irn-Md-wsy">
-                                <rect key="frame" x="187" y="172" width="106" height="18"/>
+                                <rect key="frame" x="187" y="200" width="106" height="18"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="western_easter" id="gSq-T5-Meb">
                                     <font key="font" size="14" name=".AppleSystemUIFont"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -689,7 +689,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="SnP-5l-zhG">
-                                <rect key="frame" x="149" y="130" width="183" height="22"/>
+                                <rect key="frame" x="148" y="158" width="183" height="22"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Orthodox Easter Date" id="tCB-XX-mia">
                                     <font key="font" size="18" name=".AppleSystemUIFont"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -697,38 +697,54 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="m8I-vG-apr">
-                                <rect key="frame" x="184" y="95" width="113" height="18"/>
+                                <rect key="frame" x="184" y="130" width="113" height="18"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="orthodox_easter" id="IRc-Qi-c02">
                                     <font key="font" size="14" name=".AppleSystemUIFont"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="M75-3e-yhu">
-                                <rect key="frame" x="231" y="26" width="19" height="27"/>
-                                <stepperCell key="cell" continuous="YES" alignment="left" maxValue="100" id="BRz-0E-ktX"/>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="aPW-0o-GXn">
+                                <rect key="frame" x="166" y="13" width="49" height="32"/>
+                                <buttonCell key="cell" type="push" title="&lt;" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="wDE-GB-Qmo">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
                                 <connections>
-                                    <action selector="stepperValueChanged:" target="XfG-lQ-9wD" id="vE1-xv-poT"/>
+                                    <action selector="buttonClickedWithSender:" target="XfG-lQ-9wD" id="bTP-K8-lRP"/>
                                 </connections>
-                            </stepper>
+                            </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="YwY-Sg-ZcM">
+                                <rect key="frame" x="266" y="13" width="49" height="32"/>
+                                <buttonCell key="cell" type="push" title="&gt;" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Bnh-gX-qiA">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="buttonClickedWithSender:" target="XfG-lQ-9wD" id="Qdr-FA-boy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="m8I-vG-apr" firstAttribute="top" secondItem="SnP-5l-zhG" secondAttribute="bottom" constant="17" id="2Df-JD-266"/>
-                            <constraint firstItem="irn-Md-wsy" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="Bwn-Pu-xnu"/>
-                            <constraint firstItem="M75-3e-yhu" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="Iv1-gu-hli"/>
-                            <constraint firstItem="SnP-5l-zhG" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="LPX-PF-GST"/>
-                            <constraint firstItem="fqG-tC-pGG" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="NsS-G9-2a7"/>
-                            <constraint firstAttribute="bottom" secondItem="M75-3e-yhu" secondAttribute="bottom" constant="29" id="TJE-U4-aCC"/>
-                            <constraint firstItem="irn-Md-wsy" firstAttribute="top" secondItem="fqG-tC-pGG" secondAttribute="bottom" constant="17" id="dQX-bT-xXr"/>
-                            <constraint firstItem="SnP-5l-zhG" firstAttribute="top" secondItem="irn-Md-wsy" secondAttribute="bottom" constant="20" id="gEU-s8-fZu"/>
-                            <constraint firstItem="fqG-tC-pGG" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="41" id="kmT-2d-0R4"/>
-                            <constraint firstItem="m8I-vG-apr" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="zh6-PO-Acg"/>
+                            <constraint firstItem="aPW-0o-GXn" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" constant="-50" id="1zD-1N-MaK"/>
+                            <constraint firstAttribute="bottom" secondItem="YwY-Sg-ZcM" secondAttribute="bottom" constant="20" id="4ya-05-YQb"/>
+                            <constraint firstItem="YwY-Sg-ZcM" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" constant="50" id="AL0-jO-dfT"/>
+                            <constraint firstItem="fqG-tC-pGG" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="EAi-ES-ll2"/>
+                            <constraint firstItem="fqG-tC-pGG" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" id="LFa-IP-y34"/>
+                            <constraint firstItem="m8I-vG-apr" firstAttribute="top" secondItem="SnP-5l-zhG" secondAttribute="bottom" constant="10" id="OwK-dx-8Ma"/>
+                            <constraint firstItem="irn-Md-wsy" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="PnX-J4-Gg3"/>
+                            <constraint firstItem="SnP-5l-zhG" firstAttribute="top" secondItem="irn-Md-wsy" secondAttribute="bottom" constant="20" id="TJd-h2-1Tw"/>
+                            <constraint firstItem="irn-Md-wsy" firstAttribute="top" secondItem="fqG-tC-pGG" secondAttribute="bottom" constant="10" id="ZR1-dJ-c1c"/>
+                            <constraint firstItem="SnP-5l-zhG" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="ci4-nr-xge"/>
+                            <constraint firstAttribute="bottom" secondItem="aPW-0o-GXn" secondAttribute="bottom" constant="20" id="fm1-JQ-7Wk"/>
+                            <constraint firstItem="m8I-vG-apr" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="zFv-zA-JtA"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="leftButton" destination="aPW-0o-GXn" id="UgD-OI-UPI"/>
                         <outlet property="orthodoxEasterLabel" destination="m8I-vG-apr" id="jEy-RC-2CG"/>
                         <outlet property="orthodoxTitleLabel" destination="SnP-5l-zhG" id="8dD-Fh-iTd"/>
-                        <outlet property="stepper" destination="M75-3e-yhu" id="wM3-B7-C1c"/>
+                        <outlet property="rightButton" destination="YwY-Sg-ZcM" id="SLk-uI-UBP"/>
                         <outlet property="westernEasterLabel" destination="irn-Md-wsy" id="6I0-MC-xi4"/>
                         <outlet property="westernTitleLabel" destination="fqG-tC-pGG" id="okA-uD-kIK"/>
                     </connections>

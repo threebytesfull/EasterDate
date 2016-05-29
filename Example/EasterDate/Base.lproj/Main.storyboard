@@ -44,7 +44,7 @@
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="t95-t8-kQ0">
                                 <rect key="frame" x="113" y="421" width="94" height="29"/>
                                 <connections>
-                                    <action selector="stepperValueChanged:" destination="vXZ-lx-hvc" eventType="valueChanged" id="uFh-rI-g8t"/>
+                                    <action selector="stepperValueChangedWithSender:" destination="vXZ-lx-hvc" eventType="valueChanged" id="noK-iw-u2u"/>
                                 </connections>
                             </stepper>
                         </subviews>
