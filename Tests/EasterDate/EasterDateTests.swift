@@ -1,6 +1,8 @@
 import XCTest
 @testable import EasterDate
 
+import Foundation
+
 class EasterDateTests: XCTestCase {
 
     let calendar = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)!
