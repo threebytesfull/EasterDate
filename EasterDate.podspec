@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'EasterDate'
-  s.version          = '0.6.0-beta.1'
+  s.version          = '0.6.0-beta.2'
   s.summary          = 'Easter date calculation for NSDate'
 
   s.description      = <<-DESC
@@ -19,6 +19,6 @@ This CocoaPod extends `NSDate` with class methods to calculate the dates of West
 
   s.tvos.deployment_target = '9.0'
 
-  s.source_files = 'EasterDate/Classes/**/*'
+  s.source_files = 'Sources/**/*'
   s.frameworks = 'Foundation'
 end
