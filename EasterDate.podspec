@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'EasterDate'
-  s.version          = '0.6.1'
+  s.version          = '0.6.2'
   s.summary          = 'Easter date calculation for NSDate'
 
   s.description      = <<-DESC

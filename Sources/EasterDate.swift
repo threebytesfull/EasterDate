@@ -8,26 +8,42 @@
 
 import Foundation
 
+/// This extension adds Easter date calculation to NSDate.
 extension NSDate {
-    /**
-        Returns the date of Easter Sunday in the Gregorian calendar
-        for the specified year.
-    */
+
+    /// Returns the date of Easter Sunday in the Gregorian calendar
+    /// for the specified year.
+    ///
+    /// - parameter year: The year for which to calculate Easter Sunday
+    ///
+    /// - returns: An `NSDate` object for the requested Easter Sunday, if in range, otherwise `nil`
     #if swift(>=3.0)
     public class func westernEasterDateForYear(_ year: Int) -> NSDate? {
         return self.westernEasterDate(year: year)
     }
     #else
     public class func westernEasterDateForYear(year: Int) -> NSDate? {
-        return self.westernEasterDate(year)
+        return self.westernEasterDate(year: year)
     }
     #endif
 
-    /**
-        Returns the date of Easter Sunday in the Gregorian calendar
-        for the specified year.
-    */
+    /// Returns the date of Easter Sunday in the Gregorian calendar
+    /// for the specified year.
+    ///
+    /// - parameter year: The year for which to calculate Easter Sunday
+    ///
+    /// - returns: An `NSDate` object for the requested Easter Sunday, if in range, otherwise `nil`
+    #if swift(>=3.0)
     public class func westernEasterDate(year: Int) -> NSDate? {
+        return self.westernEaster(forYear: year)
+    }
+    #else
+    public class func westernEasterDate(year year: Int) -> NSDate? {
+        return self.westernEaster(forYear: year)
+    }
+    #endif
+
+    private class func westernEaster(forYear year: Int) -> NSDate? {
         guard year >= 1583 else {
             // This calculation is valid for the year 1583 and onwards
             return nil
@@ -66,25 +82,39 @@ extension NSDate {
         #endif
     }
 
-    /**
-        Returns the date of Eastern Orthodox Easter in the Julian calendar
-        for the specified year.
-    */
+    /// Returns the date of Eastern Orthodox Easter Sunday in the Gregorian calendar
+    /// for the specified year.
+    ///
+    /// - parameter year: The year for which to calculate Eastern Orthodox Easter Sunday
+    ///
+    /// - returns: An `NSDate` object for the requested Easter Sunday, if in range, otherwise `nil`
     #if swift(>=3.0)
     public class func easternOrthodoxEasterDateForYear(_ year: Int) -> NSDate? {
         return self.easternOrthodoxEasterDate(year: year)
     }
     #else
     public class func easternOrthodoxEasterDateForYear(year: Int) -> NSDate? {
-        return self.easternOrthodoxEasterDate(year)
+        return self.easternOrthodoxEasterDate(year: year)
     }
     #endif
 
-    /**
-        Returns the date of Eastern Orthodox Easter in the Julian calendar
-        for the specified year.
-    */
+    /// Returns the date of Eastern Orthodox Easter Sunday in the Gregorian calendar
+    /// for the specified year.
+    ///
+    /// - parameter year: The year for which to calculate Eastern Orthodox Easter Sunday
+    ///
+    /// - returns: An `NSDate` object for the requested Easter Sunday, if in range, otherwise `nil`
+    #if swift(>=3.0)
     public class func easternOrthodoxEasterDate(year: Int) -> NSDate? {
+        return self.easternEaster(forYear: year)
+    }
+    #else
+    public class func easternOrthodoxEasterDate(year year: Int) -> NSDate? {
+        return self.easternEaster(forYear: year)
+    }
+    #endif
+
+    private class func easternEaster(forYear year: Int) -> NSDate? {
         guard (1900...2099).contains(year) else {
             // This calculation is valid for the years 1900-2099 only
             return nil

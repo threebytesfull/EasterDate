@@ -1,5 +1,16 @@
 # EasterDate Change Log
 
+## 0.6.2 (2016-05-29)
+
+##### Enhancements
+
+* Tidy up class method names.
+* Add more documentation.
+
+##### Bug Fixes
+
+* None.
+
 ## 0.6.1 (2016-05-29)
 
 ##### Enhancements
