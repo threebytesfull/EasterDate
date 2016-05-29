@@ -17,30 +17,46 @@ class ViewControllerMac: NSViewController {
     @IBOutlet var westernEasterLabel: NSTextField!
     @IBOutlet var orthodoxEasterLabel: NSTextField!
 
-    @IBOutlet var stepper: NSStepper!
-    
+    @IBOutlet weak var leftButton: NSButton!
+    @IBOutlet weak var rightButton: NSButton!
+
+    private var year: Int!
+    private var minYear: Int!
+    private var maxYear: Int!
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let year = NSCalendar.currentCalendar().components([.Year], fromDate: NSDate()).year
-        stepper.minValue = Double(year - 10)
-        stepper.maxValue = Double(year + 10)
-        stepper.integerValue = year
+        #if swift(>=3.0)
+            year = NSCalendar.current().components([.year], from: NSDate()).year
+        #else
+            year = NSCalendar.currentCalendar().components([.Year], fromDate: NSDate()).year
+        #endif
+
+        minYear = year - 10
+        maxYear = year + 10
 
         updateEasterDates()
     }
 
     func updateEasterDates() {
-        let year = stepper.integerValue
-
         let formatter = NSDateFormatter()
-        formatter.dateStyle = .MediumStyle
-        formatter.timeStyle = .NoStyle
+        #if swift(>=3.0)
+            formatter.dateStyle = .mediumStyle
+            formatter.timeStyle = .noStyle
+        #else
+            formatter.dateStyle = .MediumStyle
+            formatter.timeStyle = .NoStyle
+        #endif
 
         westernTitleLabel.stringValue = "Western Easter \(year)"
 
         if let westernEaster = NSDate.westernEasterDateForYear(year) {
-            westernEasterLabel.stringValue = formatter.stringFromDate(westernEaster)
+            #if swift(>=3.0)
+                westernEasterLabel.stringValue = formatter.string(from: westernEaster)
+            #else
+                westernEasterLabel.stringValue = formatter.stringFromDate(westernEaster)
+            #endif
         } else {
             westernEasterLabel.stringValue = "unknown"
         }
@@ -48,15 +64,30 @@ class ViewControllerMac: NSViewController {
         orthodoxTitleLabel.stringValue = "Orthodox Easter \(year)"
 
         if let orthodoxEaster = NSDate.easternOrthodoxEasterDateForYear(year) {
-            orthodoxEasterLabel.stringValue = formatter.stringFromDate(orthodoxEaster)
+            #if swift(>=3.0)
+                orthodoxEasterLabel.stringValue = formatter.string(from: orthodoxEaster)
+            #else
+                orthodoxEasterLabel.stringValue = formatter.stringFromDate(orthodoxEaster)
+            #endif
         } else {
             orthodoxEasterLabel.stringValue = "unknown"
         }
     }
 
-    @IBAction func stepperValueChanged(sender: AnyObject) {
+    @IBAction func buttonClicked(sender: NSButton) {
+        switch sender {
+        case leftButton:
+            year = max(minYear, year - 1)
+        case rightButton:
+            year = min(maxYear, year + 1)
+        default:
+            return
+        }
+
+        leftButton.isEnabled = year > minYear
+        rightButton.isEnabled = year < maxYear
+
         updateEasterDates()
     }
-
 }
 

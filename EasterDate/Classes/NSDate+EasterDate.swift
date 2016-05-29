@@ -11,7 +11,11 @@ import Foundation
 extension NSDate {
     /// Returns the date of Easter Sunday in the Gregorian calendar
     /// for the specified year.
-    public class func westernEasterDateForYear(year: Int) -> NSDate? {
+    public class func westernEasterDateForYear(_ year: Int) -> NSDate? {
+        return self.westernEasterDate(year: year)
+    }
+
+    public class func westernEasterDate(year: Int) -> NSDate? {
         guard year >= 1583 else {
             // This calculation is valid for the year 1583 and onwards
             return nil
@@ -43,12 +47,20 @@ extension NSDate {
         components.timeZone = NSTimeZone(forSecondsFromGMT: 0)
 
         let calendar = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)!
-        return calendar.dateFromComponents(components)
+        #if swift(>=3.0)
+            return calendar.date(from: components)
+        #else
+            return calendar.dateFromComponents(components)
+        #endif
     }
 
     /// Returns the date of Eastern Orthodox Easter in the Julian calendar
     /// for the specified year.
-    public class func easternOrthodoxEasterDateForYear(year: Int) -> NSDate? {
+    public class func easternOrthodoxEasterDateForYear(_ year: Int) -> NSDate? {
+        return self.easternOrthodoxEasterDate(year: year)
+    }
+
+    public class func easternOrthodoxEasterDate(year: Int) -> NSDate? {
         guard (1900...2099).contains(year) else {
             // This calculation is valid for the years 1900-2099 only
             return nil
@@ -73,6 +85,10 @@ extension NSDate {
         components.timeZone = NSTimeZone(forSecondsFromGMT: 0)
 
         let calendar = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)!
-        return calendar.dateFromComponents(components)
+        #if swift(>=3.0)
+            return calendar.date(from: components)
+        #else
+            return calendar.dateFromComponents(components)
+        #endif
     }
 }
