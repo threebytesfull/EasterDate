@@ -1,5 +1,16 @@
 # EasterDate Change Log
 
+## 0.6.1 (2016-05-29)
+
+##### Enhancements
+
+* Add more documentation.
+* Add convenience test scripts.
+
+##### Bug Fixes
+
+* None.
+
 ## 0.6.0 (2016-05-29)
 
 ##### Enhancements
