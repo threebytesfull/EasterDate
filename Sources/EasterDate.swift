@@ -9,8 +9,10 @@
 import Foundation
 
 extension NSDate {
-    /// Returns the date of Easter Sunday in the Gregorian calendar
-    /// for the specified year.
+    /**
+        Returns the date of Easter Sunday in the Gregorian calendar
+        for the specified year.
+    */
     #if swift(>=3.0)
     public class func westernEasterDateForYear(_ year: Int) -> NSDate? {
         return self.westernEasterDate(year: year)
@@ -21,6 +23,10 @@ extension NSDate {
     }
     #endif
 
+    /**
+        Returns the date of Easter Sunday in the Gregorian calendar
+        for the specified year.
+    */
     public class func westernEasterDate(year: Int) -> NSDate? {
         guard year >= 1583 else {
             // This calculation is valid for the year 1583 and onwards
@@ -50,7 +56,7 @@ extension NSDate {
         components.month = month
         components.day = day
         components.hour = 12
-        components.timeZone = NSTimeZone(forSecondsFromGMT: 0)
+        components.timeZone = NSTimeZone(name: "GMT")
 
         let calendar = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)!
         #if swift(>=3.0)
@@ -60,8 +66,10 @@ extension NSDate {
         #endif
     }
 
-    /// Returns the date of Eastern Orthodox Easter in the Julian calendar
-    /// for the specified year.
+    /**
+        Returns the date of Eastern Orthodox Easter in the Julian calendar
+        for the specified year.
+    */
     #if swift(>=3.0)
     public class func easternOrthodoxEasterDateForYear(_ year: Int) -> NSDate? {
         return self.easternOrthodoxEasterDate(year: year)
@@ -72,6 +80,10 @@ extension NSDate {
     }
     #endif
 
+    /**
+        Returns the date of Eastern Orthodox Easter in the Julian calendar
+        for the specified year.
+    */
     public class func easternOrthodoxEasterDate(year: Int) -> NSDate? {
         guard (1900...2099).contains(year) else {
             // This calculation is valid for the years 1900-2099 only
@@ -94,7 +106,7 @@ extension NSDate {
         components.month = month
         components.day = day + 13
         components.hour = 12
-        components.timeZone = NSTimeZone(forSecondsFromGMT: 0)
+        components.timeZone = NSTimeZone(name: "GMT")
 
         let calendar = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)!
         #if swift(>=3.0)

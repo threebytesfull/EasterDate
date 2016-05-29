@@ -1,5 +1,5 @@
-import EasterDate
 import XCTest
+@testable import EasterDate
 
 import Foundation
 
@@ -25,12 +25,16 @@ class EasterDateTests: XCTestCase {
             let easter = NSDate.westernEasterDateForYear(year)
             XCTAssertNotNil(easter)
             if let easter = easter {
+                var components: NSDateComponents?
                 #if swift(>=3.0)
-                    let components = calendar.components([.year, .month, .day], from: easter)
+                    components = calendar.components([.year, .month, .day], from: easter)
                 #else
-                    let components = calendar.components([.Year, .Month, .Day], fromDate: easter)
+                    components = calendar.components([.Year, .Month, .Day], fromDate: easter)
                 #endif
-                XCTAssertEqual([components.year, components.month, components.day], expectedEaster)
+                XCTAssertNotNil(components)
+                if let components = components {
+                    XCTAssertEqual([components.year, components.month, components.day], expectedEaster)
+                }
             }
         }
     }
@@ -54,12 +58,16 @@ class EasterDateTests: XCTestCase {
             let easter = NSDate.easternOrthodoxEasterDateForYear(year)
             XCTAssertNotNil(easter)
             if let easter = easter {
+                var components: NSDateComponents?
                 #if swift(>=3.0)
-                    let components = calendar.components([.year, .month, .day], from: easter)
+                    components = calendar.components([.year, .month, .day], from: easter)
                 #else
-                    let components = calendar.components([.Year, .Month, .Day], fromDate: easter)
+                    components = calendar.components([.Year, .Month, .Day], fromDate: easter)
                 #endif
-                XCTAssertEqual([components.year, components.month, components.day], expectedEaster)
+                XCTAssertNotNil(components)
+                if let components = components {
+                    XCTAssertEqual([components.year, components.month, components.day], expectedEaster)
+                }
             }
         }
     }
@@ -70,4 +78,15 @@ class EasterDateTests: XCTestCase {
             XCTAssertNil(easter)
         }
     }
+}
+extension EasterDateTests {
+	static var allTests : [(String, (EasterDateTests) -> () throws -> Void)] {
+		return [
+			("testWesternEasterBeforeGregorianCalendar", testWesternEasterBeforeGregorianCalendar),
+			("testWesternEasterForGregorianCalendar", testWesternEasterForGregorianCalendar),
+            ("testOrthodoxEasterBefore1900", testOrthodoxEasterBefore1900),
+            ("testOrthodoxEasterBetween1900And2099", testOrthodoxEasterBetween1900And2099),
+            ("testOrthodoxEasterAfter2099", testOrthodoxEasterAfter2099),
+		]
+	}
 }

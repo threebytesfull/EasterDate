@@ -8,36 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		02F98B25B19ABEB451860C49A969F3AB /* Pods-EasterDate Example iOS-EasterDate Tests iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9810029295CFF2589326269B6CB860F7 /* Pods-EasterDate Example iOS-EasterDate Tests iOS-dummy.m */; };
-		0372A54211ECCBF83C954D9AB25A64C0 /* NSDate+EasterDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074A5EC67A800E25D418E893A3344D74 /* NSDate+EasterDate.swift */; };
 		038B766DF22FF475F1E56565D071BD90 /* Pods-EasterDate Example tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B944AE6A5DFE8D32EDDF605E9303D936 /* Pods-EasterDate Example tvOS-dummy.m */; };
 		061B805F2B9570634585B8ACF6F8026E /* Pods-EasterDate Example iOS-EasterDate Tests iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C44A573CBC1D91EDD10210E9B707419 /* Pods-EasterDate Example iOS-EasterDate Tests iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C17E6453AE9C486085007A8398D95D8 /* EasterDate-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53863821528F4F7E2C6398AAB35BCB66 /* EasterDate-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C17E6453AE9C486085007A8398D95D8 /* EasterDate-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8BDBFE4F9683CD7D46DC6DCC54848D8 /* EasterDate-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C3E1DDAB41C99F434E0316AAFEB0555 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A029084B359561F67763FC9ECFAF26C /* Foundation.framework */; };
 		10DC10F27AC47B170B21EA833B33AE63 /* Pods-EasterDate Example tvOS-EasterDate Tests tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A52FA85C16D69BCEF382790D26BAA7BB /* Pods-EasterDate Example tvOS-EasterDate Tests tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10F26AAE12D85A6F58A1B26FE4DF47E5 /* EasterDate-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FB46D440581BB13101CECB2F3D6EC8 /* EasterDate-tvOS-dummy.m */; };
 		1131076274D9213FC07078C250418EE8 /* Pods-EasterDate Example Mac-EasterDate Tests Mac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A4197A72004DD8283147C8EC8C92D /* Pods-EasterDate Example Mac-EasterDate Tests Mac-dummy.m */; };
 		19022CE733E1744210FD67C35B3CBF22 /* Pods-EasterDate Example iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E10EF891C7C2951CAAF9D06D54EA252F /* Pods-EasterDate Example iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		20655B297FA7A36BDC6A957DC2FE2486 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68041AB40AA845393BAF76F8AE79D917 /* Foundation.framework */; };
 		2233E1DF217C7322350711F616F5A088 /* Pods-EasterDate Example tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E9046947C324242E65804DB3A05D3DC /* Pods-EasterDate Example tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		310962791985DEE01E195E65D5C0EF14 /* EasterDate-OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA7C7995803B2288C3D8D33B576E8E /* EasterDate-OSX-dummy.m */; };
+		354A2D3E9170A7784E8C356CE36D11CC /* EasterDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E0E729D2F082C1AF8AB6733F8FA619 /* EasterDate.swift */; };
+		3824031591D3402A05345448C6CFAE03 /* EasterDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E0E729D2F082C1AF8AB6733F8FA619 /* EasterDate.swift */; };
 		484538BF541A4AC98A84CD46F85F81D9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B826FE27CE9F5735681445658E9BB97D /* Cocoa.framework */; };
 		4EF52DD6B837C6047B08D3E4C623FE03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68041AB40AA845393BAF76F8AE79D917 /* Foundation.framework */; };
 		50A4663783B93BFEA342B1911667FB25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E924F36E6E48082999A556E36720D548 /* Foundation.framework */; };
 		5C4731E8FF696EB20DF36274000F6A9E /* Pods-EasterDate Example Mac-EasterDate Tests Mac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08DA7FE8F5A73AA70A1D9CF963A1B2A6 /* Pods-EasterDate Example Mac-EasterDate Tests Mac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B1C82A2A6093463797991DCB0646073 /* Pods-EasterDate Example iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43EA08D3E427CF2749B99A456369BA41 /* Pods-EasterDate Example iOS-dummy.m */; };
 		6DF25BB202D88E62F139EFDA5535CF92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68041AB40AA845393BAF76F8AE79D917 /* Foundation.framework */; };
-		8C8C6741B018B8CA5DC5F45603E5FD7B /* EasterDate-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41DA57EEF73193E7FE3181AEA38E3C0A /* EasterDate-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91EE21D406C47FC3FBDA3AE64FA08255 /* NSDate+EasterDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074A5EC67A800E25D418E893A3344D74 /* NSDate+EasterDate.swift */; };
+		8C8C6741B018B8CA5DC5F45603E5FD7B /* EasterDate-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CB0CF797E807A146F150D9D059D7841 /* EasterDate-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95944A6196F0A1429CAA8E08546D862E /* EasterDate-OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8D96542F4352B46E6B1F170700A208 /* EasterDate-OSX-dummy.m */; };
 		96A9B04E6340DD5065E5C37C0AF0BB40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E924F36E6E48082999A556E36720D548 /* Foundation.framework */; };
 		991D5C85752A73115FB7D14B7FF67886 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B826FE27CE9F5735681445658E9BB97D /* Cocoa.framework */; };
 		A3015A5A031AC7DF00FEF3F3D007BD5E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B826FE27CE9F5735681445658E9BB97D /* Cocoa.framework */; };
 		AF680DC0A44D6501F497BBA2BD7E9ED9 /* Pods-EasterDate Example Mac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B31E1F82E643E77CB600C40879BC1CD /* Pods-EasterDate Example Mac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B790B546C4819A3E2F33B0C38627154D /* EasterDate-OSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8FF690E72B61C8FDB5B6B76FDD22FB4 /* EasterDate-OSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C29DFA6BDCC5372EF1BC8D3D33B6D589 /* EasterDate-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70079BD84AD24B57FE0397FEB20B0055 /* EasterDate-iOS-dummy.m */; };
+		B68CE288979EC41EFAF7B3BDFE2CF1B4 /* EasterDate-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEE0713C2758E183EADDFF149A88B7B /* EasterDate-iOS-dummy.m */; };
+		B790B546C4819A3E2F33B0C38627154D /* EasterDate-OSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6CCA1C150DCB3A65D4CC0A0DF788E8 /* EasterDate-OSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C88A01FD45BD050C45C7D5B875247A2D /* Pods-EasterDate Example Mac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3F722CCCE8B1E62179DC9F7A108231 /* Pods-EasterDate Example Mac-dummy.m */; };
-		CA60FD044BD4659257E9A1385A426080 /* NSDate+EasterDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074A5EC67A800E25D418E893A3344D74 /* NSDate+EasterDate.swift */; };
-		E07880AD03B67ADCE297EB5496707167 /* EasterDate-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E05A7700FC38AA3D11461979542A7B08 /* EasterDate-tvOS-dummy.m */; };
 		E3E0D343E9D194A9969121659D17121F /* Pods-EasterDate Example tvOS-EasterDate Tests tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9799F17A9D3EF9EF9E10738E3676461A /* Pods-EasterDate Example tvOS-EasterDate Tests tvOS-dummy.m */; };
 		EBE8C72E8F87505010DD002E7AC7BEAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E924F36E6E48082999A556E36720D548 /* Foundation.framework */; };
+		FE038EAE44A1CEAF57490A0038501BBD /* EasterDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E0E729D2F082C1AF8AB6733F8FA619 /* EasterDate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,15 +86,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03886C7D375247570A47E3BDD1BD3DE9 /* EasterDate-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EasterDate-tvOS-prefix.pch"; path = "../EasterDate-tvOS/EasterDate-tvOS-prefix.pch"; sourceTree = "<group>"; };
 		039FCC2ED59AE6AF79EE5D1039E73C3D /* Pods-EasterDate Example iOS-EasterDate Tests iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasterDate Example iOS-EasterDate Tests iOS-resources.sh"; sourceTree = "<group>"; };
 		03E4AE866622B874DE8CADDB9568205B /* Pods-EasterDate Example iOS-EasterDate Tests iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasterDate Example iOS-EasterDate Tests iOS-frameworks.sh"; sourceTree = "<group>"; };
-		05190E95516A71B1810073437C24EEE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../EasterDate-tvOS/Info.plist"; sourceTree = "<group>"; };
 		051D09F11A953092CA3898427AD6D686 /* Pods-EasterDate Example iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasterDate Example iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		074A5EC67A800E25D418E893A3344D74 /* NSDate+EasterDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSDate+EasterDate.swift"; sourceTree = "<group>"; };
+		06FB46D440581BB13101CECB2F3D6EC8 /* EasterDate-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EasterDate-tvOS-dummy.m"; path = "../EasterDate-tvOS/EasterDate-tvOS-dummy.m"; sourceTree = "<group>"; };
 		083968B3E49D6FA60B2045371C9ABC86 /* Pods-EasterDate Example iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasterDate Example iOS-resources.sh"; sourceTree = "<group>"; };
 		08DA7FE8F5A73AA70A1D9CF963A1B2A6 /* Pods-EasterDate Example Mac-EasterDate Tests Mac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasterDate Example Mac-EasterDate Tests Mac-umbrella.h"; sourceTree = "<group>"; };
+		0D8D96542F4352B46E6B1F170700A208 /* EasterDate-OSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasterDate-OSX-dummy.m"; sourceTree = "<group>"; };
+		13AC0E08CC8F76990C9BF5CAC17A24B9 /* EasterDate-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EasterDate-iOS-prefix.pch"; path = "../EasterDate-iOS/EasterDate-iOS-prefix.pch"; sourceTree = "<group>"; };
 		148F75D6C90A94FFBDD9770025BD7CD5 /* Pods-EasterDate Example Mac-EasterDate Tests Mac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasterDate Example Mac-EasterDate Tests Mac.debug.xcconfig"; sourceTree = "<group>"; };
+		18E0E729D2F082C1AF8AB6733F8FA619 /* EasterDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EasterDate.swift; sourceTree = "<group>"; };
 		1C44A573CBC1D91EDD10210E9B707419 /* Pods-EasterDate Example iOS-EasterDate Tests iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasterDate Example iOS-EasterDate Tests iOS-umbrella.h"; sourceTree = "<group>"; };
 		212684BBA6BF37C69BA73AFA43049B3C /* Pods-EasterDate Example tvOS-EasterDate Tests tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasterDate Example tvOS-EasterDate Tests tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		2B47FFE077AAFF424012DF264B9B6BD0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,54 +103,54 @@
 		2D9F603E42AF6238A0D01D342738B55F /* Pods-EasterDate Example iOS-EasterDate Tests iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasterDate Example iOS-EasterDate Tests iOS.release.xcconfig"; sourceTree = "<group>"; };
 		2E9046947C324242E65804DB3A05D3DC /* Pods-EasterDate Example tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasterDate Example tvOS-umbrella.h"; sourceTree = "<group>"; };
 		3492897635D419F2F9465CF80B66C65C /* Pods-EasterDate Example tvOS-EasterDate Tests tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasterDate Example tvOS-EasterDate Tests tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3CBA7C7995803B2288C3D8D33B576E8E /* EasterDate-OSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasterDate-OSX-dummy.m"; sourceTree = "<group>"; };
 		3E5514E4AD07E62602E7B29FEC77E992 /* Pods_EasterDate_Example_tvOS_EasterDate_Tests_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasterDate_Example_tvOS_EasterDate_Tests_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		41DA57EEF73193E7FE3181AEA38E3C0A /* EasterDate-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EasterDate-iOS-umbrella.h"; path = "../EasterDate-iOS/EasterDate-iOS-umbrella.h"; sourceTree = "<group>"; };
 		43EA08D3E427CF2749B99A456369BA41 /* Pods-EasterDate Example iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasterDate Example iOS-dummy.m"; sourceTree = "<group>"; };
 		44BDAE0B88A90A4F1732C614D94D085C /* Pods-EasterDate Example Mac-EasterDate Tests Mac-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasterDate Example Mac-EasterDate Tests Mac-acknowledgements.plist"; sourceTree = "<group>"; };
 		4F1A4197A72004DD8283147C8EC8C92D /* Pods-EasterDate Example Mac-EasterDate Tests Mac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasterDate Example Mac-EasterDate Tests Mac-dummy.m"; sourceTree = "<group>"; };
+		4F4A245D6326994759089A2E072D8D72 /* EasterDate-OSX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasterDate-OSX-prefix.pch"; sourceTree = "<group>"; };
 		4F5BFF79DDA307094BD30B0C2C124BBD /* Pods-EasterDate Example iOS-EasterDate Tests iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasterDate Example iOS-EasterDate Tests iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		501381A6D1B6CDF576570884DDFF7255 /* Pods-EasterDate Example iOS-EasterDate Tests iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasterDate Example iOS-EasterDate Tests iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		523780E8D7774313923E442D5A85D1B3 /* Pods-EasterDate Example tvOS-EasterDate Tests tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasterDate Example tvOS-EasterDate Tests tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		53863821528F4F7E2C6398AAB35BCB66 /* EasterDate-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EasterDate-tvOS-umbrella.h"; path = "../EasterDate-tvOS/EasterDate-tvOS-umbrella.h"; sourceTree = "<group>"; };
 		55F33C6696E8885E30ACFF7659B802C2 /* Pods-EasterDate Example Mac-EasterDate Tests Mac-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasterDate Example Mac-EasterDate Tests Mac-resources.sh"; sourceTree = "<group>"; };
 		5A029084B359561F67763FC9ECFAF26C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A6141598089ED2AB8B442873C579E2E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../EasterDate-iOS/Info.plist"; sourceTree = "<group>"; };
 		5B386FC00E9D2CE2C2AB78FACAC72131 /* Pods-EasterDate Example iOS-EasterDate Tests iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasterDate Example iOS-EasterDate Tests iOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		5F4B7048B03A6D8A845A504D82EADDA6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CB0CF797E807A146F150D9D059D7841 /* EasterDate-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EasterDate-iOS-umbrella.h"; path = "../EasterDate-iOS/EasterDate-iOS-umbrella.h"; sourceTree = "<group>"; };
 		68041AB40AA845393BAF76F8AE79D917 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6B31E1F82E643E77CB600C40879BC1CD /* Pods-EasterDate Example Mac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasterDate Example Mac-umbrella.h"; sourceTree = "<group>"; };
 		6BD57DC1AF3E06B13C61A41BD25E9D6D /* Pods_EasterDate_Example_Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasterDate_Example_Mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C8803FBF669A4DEE486E2F97A926DA1 /* Pods-EasterDate Example iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasterDate Example iOS.release.xcconfig"; sourceTree = "<group>"; };
-		6DF8E2F1DB8853CA66A751E5870445F7 /* EasterDate-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EasterDate-iOS-prefix.pch"; path = "../EasterDate-iOS/EasterDate-iOS-prefix.pch"; sourceTree = "<group>"; };
 		6F28CECFCA372F771D89F7B0F43CD38D /* Pods-EasterDate Example Mac-EasterDate Tests Mac-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasterDate Example Mac-EasterDate Tests Mac-frameworks.sh"; sourceTree = "<group>"; };
 		6F790DECC4ADB9F004F0CD7A5B0E61E5 /* EasterDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasterDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		70079BD84AD24B57FE0397FEB20B0055 /* EasterDate-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EasterDate-iOS-dummy.m"; path = "../EasterDate-iOS/EasterDate-iOS-dummy.m"; sourceTree = "<group>"; };
 		736D7F60C95E32899F61432E71420B5D /* Pods-EasterDate Example tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasterDate Example tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		74788A0204F84ACCF0333D82893BCE6C /* Pods-EasterDate Example Mac-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasterDate Example Mac-acknowledgements.markdown"; sourceTree = "<group>"; };
 		759C93CABA831DF97F9776C3BB642F50 /* Pods-EasterDate Example iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasterDate Example iOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		7C50063C4E5896A315B00BBBDF469A72 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EDF0403D07F869B407231D7BEBD0607 /* EasterDate-OSX.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "EasterDate-OSX.xcconfig"; sourceTree = "<group>"; };
 		84559BAB1392821CA8F502C546186008 /* Pods-EasterDate Example Mac-EasterDate Tests Mac-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasterDate Example Mac-EasterDate Tests Mac-acknowledgements.markdown"; sourceTree = "<group>"; };
 		85169F8D2BB12868B1A4E523BBEA4860 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A8F21F2B4CD195B82F415FDF9D7D8BE /* EasterDate-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "EasterDate-iOS.xcconfig"; path = "../EasterDate-iOS/EasterDate-iOS.xcconfig"; sourceTree = "<group>"; };
 		8AA851BBDF7F2803330872CDEE1EC522 /* Pods-EasterDate Example tvOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasterDate Example tvOS-resources.sh"; sourceTree = "<group>"; };
 		8CEDBB8E48A5D166C0DC5D992C2E3946 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DE9309115CEB22FD6309D66D0402618 /* Pods-EasterDate Example iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasterDate Example iOS-frameworks.sh"; sourceTree = "<group>"; };
-		912C93096E695D2007D797E3ECE32C53 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../EasterDate-iOS/Info.plist"; sourceTree = "<group>"; };
-		92E411D86BF5D4513FD4F20B9599632A /* EasterDate-OSX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasterDate-OSX-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		970B4D8C2FC173049571F5B979EBFB90 /* Pods-EasterDate Example Mac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasterDate Example Mac.debug.xcconfig"; sourceTree = "<group>"; };
 		9799F17A9D3EF9EF9E10738E3676461A /* Pods-EasterDate Example tvOS-EasterDate Tests tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasterDate Example tvOS-EasterDate Tests tvOS-dummy.m"; sourceTree = "<group>"; };
+		97D5468403B6FADED6DD67345A4C4830 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9810029295CFF2589326269B6CB860F7 /* Pods-EasterDate Example iOS-EasterDate Tests iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasterDate Example iOS-EasterDate Tests iOS-dummy.m"; sourceTree = "<group>"; };
 		985086C514B0BF396CA841D324A372AB /* Pods-EasterDate Example Mac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EasterDate Example Mac.modulemap"; sourceTree = "<group>"; };
 		9A93994EC72C1C474212BC50ED0EB365 /* Pods-EasterDate Example iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EasterDate Example iOS.modulemap"; sourceTree = "<group>"; };
+		9BEE0713C2758E183EADDFF149A88B7B /* EasterDate-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EasterDate-iOS-dummy.m"; path = "../EasterDate-iOS/EasterDate-iOS-dummy.m"; sourceTree = "<group>"; };
 		A291263DC5A9861EE5AE32E4102D66CD /* Pods-EasterDate Example iOS-EasterDate Tests iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EasterDate Example iOS-EasterDate Tests iOS.modulemap"; sourceTree = "<group>"; };
 		A3A1445BCFA3334C6D8A6180160B79B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A52FA85C16D69BCEF382790D26BAA7BB /* Pods-EasterDate Example tvOS-EasterDate Tests tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasterDate Example tvOS-EasterDate Tests tvOS-umbrella.h"; sourceTree = "<group>"; };
 		A5EB92B34CBBFE6F9BF9ABCA31B13C84 /* Pods_EasterDate_Example_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasterDate_Example_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A754D0225E0B0B648BD7B49EDBC0FF31 /* Pods-EasterDate Example Mac-EasterDate Tests Mac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasterDate Example Mac-EasterDate Tests Mac.release.xcconfig"; sourceTree = "<group>"; };
 		A7950035CFE6ADBC977366BE7E5DAADE /* Pods-EasterDate Example tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasterDate Example tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		A8BDBFE4F9683CD7D46DC6DCC54848D8 /* EasterDate-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EasterDate-tvOS-umbrella.h"; path = "../EasterDate-tvOS/EasterDate-tvOS-umbrella.h"; sourceTree = "<group>"; };
 		AD24CD2372A69973A496A98394FEA53B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0D5F69143B5527ED952C39356AE8EE2 /* Pods-EasterDate Example Mac-EasterDate Tests Mac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EasterDate Example Mac-EasterDate Tests Mac.modulemap"; sourceTree = "<group>"; };
-		B2F04AFFCD348168959CA585BEF0D85C /* EasterDate-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "EasterDate-tvOS.xcconfig"; path = "../EasterDate-tvOS/EasterDate-tvOS.xcconfig"; sourceTree = "<group>"; };
+		B5C8C157D9551953F2B61DBA3FD8B653 /* EasterDate-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "EasterDate-iOS.modulemap"; path = "../EasterDate-iOS/EasterDate-iOS.modulemap"; sourceTree = "<group>"; };
 		B826FE27CE9F5735681445658E9BB97D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		B944AE6A5DFE8D32EDDF605E9303D936 /* Pods-EasterDate Example tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasterDate Example tvOS-dummy.m"; sourceTree = "<group>"; };
 		B9C2ADB7D4DB1A8AB2CB83706050D3BA /* Pods-EasterDate Example tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasterDate Example tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -158,25 +159,24 @@
 		BCF158337EF2F04781AB8A565AB96786 /* Pods-EasterDate Example Mac-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasterDate Example Mac-resources.sh"; sourceTree = "<group>"; };
 		C234032CD2F3985A8690F32A5910BDC5 /* Pods_EasterDate_Example_Mac_EasterDate_Tests_Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasterDate_Example_Mac_EasterDate_Tests_Mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F8245E70E31A4384C6FC01504B0F8F /* EasterDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasterDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8A85D536A0EFE68810C652CB65DB3E7 /* EasterDate-OSX.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "EasterDate-OSX.xcconfig"; sourceTree = "<group>"; };
-		CCA2B8A7F11AD22F6E92ACC09140A655 /* EasterDate-OSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "EasterDate-OSX.modulemap"; sourceTree = "<group>"; };
 		CF8E3A741C96AE11393A14EE4A4AC13C /* EasterDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasterDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF8DF093E4C567D3796AFB192395509 /* EasterDate-OSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "EasterDate-OSX.modulemap"; sourceTree = "<group>"; };
 		D2DDDB394492F34E722CA099EED7B4F4 /* Pods-EasterDate Example iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasterDate Example iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D3B5A54C12B854BACF07307B1CE7D02C /* Pods-EasterDate Example tvOS-EasterDate Tests tvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasterDate Example tvOS-EasterDate Tests tvOS-frameworks.sh"; sourceTree = "<group>"; };
 		DA6D512435BB57088B3B2A79A662A2F7 /* Pods-EasterDate Example tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasterDate Example tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		DF3F722CCCE8B1E62179DC9F7A108231 /* Pods-EasterDate Example Mac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasterDate Example Mac-dummy.m"; sourceTree = "<group>"; };
 		DFAA175CE394AEE77445210449671BA2 /* Pods_EasterDate_Example_iOS_EasterDate_Tests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasterDate_Example_iOS_EasterDate_Tests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E05A7700FC38AA3D11461979542A7B08 /* EasterDate-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EasterDate-tvOS-dummy.m"; path = "../EasterDate-tvOS/EasterDate-tvOS-dummy.m"; sourceTree = "<group>"; };
 		E08C44339291D315ADCE15890D12F1FA /* Pods-EasterDate Example tvOS-EasterDate Tests tvOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasterDate Example tvOS-EasterDate Tests tvOS-resources.sh"; sourceTree = "<group>"; };
 		E10EF891C7C2951CAAF9D06D54EA252F /* Pods-EasterDate Example iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasterDate Example iOS-umbrella.h"; sourceTree = "<group>"; };
-		E8FF690E72B61C8FDB5B6B76FDD22FB4 /* EasterDate-OSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasterDate-OSX-umbrella.h"; sourceTree = "<group>"; };
+		E15F077FE1BFAAE2C95F8759B7051F7F /* EasterDate-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "EasterDate-tvOS.xcconfig"; path = "../EasterDate-tvOS/EasterDate-tvOS.xcconfig"; sourceTree = "<group>"; };
+		E636DE120C69E1A76CA8055CA44E6529 /* EasterDate-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "EasterDate-tvOS.modulemap"; path = "../EasterDate-tvOS/EasterDate-tvOS.modulemap"; sourceTree = "<group>"; };
 		E924F36E6E48082999A556E36720D548 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		EB926ADD62D463DEB5E8CA0D3F2B0806 /* EasterDate-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "EasterDate-iOS.modulemap"; path = "../EasterDate-iOS/EasterDate-iOS.modulemap"; sourceTree = "<group>"; };
-		EE3E5DAC052C0D7D972EDE2D46525CED /* EasterDate-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "EasterDate-tvOS.modulemap"; path = "../EasterDate-tvOS/EasterDate-tvOS.modulemap"; sourceTree = "<group>"; };
+		EF6CCA1C150DCB3A65D4CC0A0DF788E8 /* EasterDate-OSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasterDate-OSX-umbrella.h"; sourceTree = "<group>"; };
 		EFD613F783EF43EFF321AC4610A177CC /* Pods-EasterDate Example tvOS-EasterDate Tests tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EasterDate Example tvOS-EasterDate Tests tvOS.modulemap"; sourceTree = "<group>"; };
 		F0D2F8AE2DBC1CCB18998654E4AA917C /* Pods_EasterDate_Example_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasterDate_Example_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1ECEB345BA785310B004CA7E1AB1DEB /* Pods-EasterDate Example tvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasterDate Example tvOS-frameworks.sh"; sourceTree = "<group>"; };
-		F913A6311CDE887D8982B388CD37A7E0 /* EasterDate-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "EasterDate-iOS.xcconfig"; path = "../EasterDate-iOS/EasterDate-iOS.xcconfig"; sourceTree = "<group>"; };
+		F6F1D88D3233DEFFB259662ADDDF02B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../EasterDate-tvOS/Info.plist"; sourceTree = "<group>"; };
+		F730088FCACB7C94AFB938201C8ACCAB /* EasterDate-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EasterDate-tvOS-prefix.pch"; path = "../EasterDate-tvOS/EasterDate-tvOS-prefix.pch"; sourceTree = "<group>"; };
 		FA754A8F169322FE6B255D3D0A619151 /* Pods-EasterDate Example Mac-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasterDate Example Mac-acknowledgements.plist"; sourceTree = "<group>"; };
 		FF4459F4B41E15D6B14DAAA3180DD163 /* Pods-EasterDate Example tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EasterDate Example tvOS.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -258,14 +258,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0FB385FFDCC1B3E1A30E736195D38269 /* EasterDate */ = {
+		059E89ACB6B89BCEB046BF0302728665 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FC0FCDB371EC7F163A94FBAFD623A3BE /* EasterDate */,
-				D7F7A3D93A9AC8CD4F513FC80B9510D9 /* Support Files */,
+				B5C8C157D9551953F2B61DBA3FD8B653 /* EasterDate-iOS.modulemap */,
+				8A8F21F2B4CD195B82F415FDF9D7D8BE /* EasterDate-iOS.xcconfig */,
+				9BEE0713C2758E183EADDFF149A88B7B /* EasterDate-iOS-dummy.m */,
+				13AC0E08CC8F76990C9BF5CAC17A24B9 /* EasterDate-iOS-prefix.pch */,
+				5CB0CF797E807A146F150D9D059D7841 /* EasterDate-iOS-umbrella.h */,
+				CFF8DF093E4C567D3796AFB192395509 /* EasterDate-OSX.modulemap */,
+				7EDF0403D07F869B407231D7BEBD0607 /* EasterDate-OSX.xcconfig */,
+				0D8D96542F4352B46E6B1F170700A208 /* EasterDate-OSX-dummy.m */,
+				4F4A245D6326994759089A2E072D8D72 /* EasterDate-OSX-prefix.pch */,
+				EF6CCA1C150DCB3A65D4CC0A0DF788E8 /* EasterDate-OSX-umbrella.h */,
+				E636DE120C69E1A76CA8055CA44E6529 /* EasterDate-tvOS.modulemap */,
+				E15F077FE1BFAAE2C95F8759B7051F7F /* EasterDate-tvOS.xcconfig */,
+				06FB46D440581BB13101CECB2F3D6EC8 /* EasterDate-tvOS-dummy.m */,
+				F730088FCACB7C94AFB938201C8ACCAB /* EasterDate-tvOS-prefix.pch */,
+				A8BDBFE4F9683CD7D46DC6DCC54848D8 /* EasterDate-tvOS-umbrella.h */,
+				F6F1D88D3233DEFFB259662ADDDF02B8 /* Info.plist */,
+				97D5468403B6FADED6DD67345A4C4830 /* Info.plist */,
+				5A6141598089ED2AB8B442873C579E2E /* Info.plist */,
 			);
-			name = EasterDate;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EasterDate-OSX";
 			sourceTree = "<group>";
 		};
 		1F34A2294F2CF7609A0ACA2BDD2656EC /* tvOS */ = {
@@ -304,10 +320,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		39147453E0704932D7054C55E3235118 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				18E0E729D2F082C1AF8AB6733F8FA619 /* EasterDate.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		49727A1AD05A75F5DEE351A0F2AD3A87 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0FB385FFDCC1B3E1A30E736195D38269 /* EasterDate */,
+				90902FA28EB7D16FBCBA7480F3D3A4A9 /* EasterDate */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -365,6 +389,16 @@
 			);
 			name = "Pods-EasterDate Example Mac";
 			path = "Target Support Files/Pods-EasterDate Example Mac";
+			sourceTree = "<group>";
+		};
+		90902FA28EB7D16FBCBA7480F3D3A4A9 /* EasterDate */ = {
+			isa = PBXGroup;
+			children = (
+				39147453E0704932D7054C55E3235118 /* Sources */,
+				059E89ACB6B89BCEB046BF0302728665 /* Support Files */,
+			);
+			name = EasterDate;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		B934C1789864A8F87B20131CAFE42CEF /* OS X */ = {
@@ -459,48 +493,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D7F7A3D93A9AC8CD4F513FC80B9510D9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EB926ADD62D463DEB5E8CA0D3F2B0806 /* EasterDate-iOS.modulemap */,
-				F913A6311CDE887D8982B388CD37A7E0 /* EasterDate-iOS.xcconfig */,
-				70079BD84AD24B57FE0397FEB20B0055 /* EasterDate-iOS-dummy.m */,
-				6DF8E2F1DB8853CA66A751E5870445F7 /* EasterDate-iOS-prefix.pch */,
-				41DA57EEF73193E7FE3181AEA38E3C0A /* EasterDate-iOS-umbrella.h */,
-				CCA2B8A7F11AD22F6E92ACC09140A655 /* EasterDate-OSX.modulemap */,
-				C8A85D536A0EFE68810C652CB65DB3E7 /* EasterDate-OSX.xcconfig */,
-				3CBA7C7995803B2288C3D8D33B576E8E /* EasterDate-OSX-dummy.m */,
-				92E411D86BF5D4513FD4F20B9599632A /* EasterDate-OSX-prefix.pch */,
-				E8FF690E72B61C8FDB5B6B76FDD22FB4 /* EasterDate-OSX-umbrella.h */,
-				EE3E5DAC052C0D7D972EDE2D46525CED /* EasterDate-tvOS.modulemap */,
-				B2F04AFFCD348168959CA585BEF0D85C /* EasterDate-tvOS.xcconfig */,
-				E05A7700FC38AA3D11461979542A7B08 /* EasterDate-tvOS-dummy.m */,
-				03886C7D375247570A47E3BDD1BD3DE9 /* EasterDate-tvOS-prefix.pch */,
-				53863821528F4F7E2C6398AAB35BCB66 /* EasterDate-tvOS-umbrella.h */,
-				05190E95516A71B1810073437C24EEE9 /* Info.plist */,
-				5F4B7048B03A6D8A845A504D82EADDA6 /* Info.plist */,
-				912C93096E695D2007D797E3ECE32C53 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/EasterDate-OSX";
-			sourceTree = "<group>";
-		};
-		E0EBAEFC80A875D7D3FB7A484C350146 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				074A5EC67A800E25D418E893A3344D74 /* NSDate+EasterDate.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		FC0FCDB371EC7F163A94FBAFD623A3BE /* EasterDate */ = {
-			isa = PBXGroup;
-			children = (
-				E0EBAEFC80A875D7D3FB7A484C350146 /* Classes */,
-			);
-			path = EasterDate;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -583,7 +575,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87EE603E2672F596DFBF0E6D466B102A /* Build configuration list for PBXNativeTarget "EasterDate-OSX" */;
 			buildPhases = (
-				BA27B1A75260D6162A48D64A77EFA060 /* Sources */,
+				D40DF5B701D3B6FE7D14A58CEC327015 /* Sources */,
 				838A03E6F7BD8C5E23BD2BD7A1E15694 /* Frameworks */,
 				806060A98CACF7C1ACA837A27155992A /* Headers */,
 			);
@@ -672,7 +664,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C326957DEFEFB3B0A7B65513B2094F95 /* Build configuration list for PBXNativeTarget "EasterDate-tvOS" */;
 			buildPhases = (
-				4B7942AF1C1D562440CF9685DC8C0552 /* Sources */,
+				C33646AFC48E3C1230ABFAE5F23334DB /* Sources */,
 				2080B59EE5C7DAF1AC9295A25DDA97CD /* Frameworks */,
 				94028D5367EB580A70C72F5450AD52C5 /* Headers */,
 			);
@@ -725,7 +717,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93B9B53F4FF10D91F3469047F669986A /* Build configuration list for PBXNativeTarget "EasterDate-iOS" */;
 			buildPhases = (
-				14E371C13FC7BCD3480ABDC0B6453DD5 /* Sources */,
+				5006A463EFFB1E418E4584EB2FE42CF9 /* Sources */,
 				EAF68D77986C84F1541823F648C1DC73 /* Frameworks */,
 				20410FF933DC6D5FFA7F01C50FCB8247 /* Headers */,
 			);
@@ -781,21 +773,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		14E371C13FC7BCD3480ABDC0B6453DD5 /* Sources */ = {
+		5006A463EFFB1E418E4584EB2FE42CF9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C29DFA6BDCC5372EF1BC8D3D33B6D589 /* EasterDate-iOS-dummy.m in Sources */,
-				CA60FD044BD4659257E9A1385A426080 /* NSDate+EasterDate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B7942AF1C1D562440CF9685DC8C0552 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E07880AD03B67ADCE297EB5496707167 /* EasterDate-tvOS-dummy.m in Sources */,
-				91EE21D406C47FC3FBDA3AE64FA08255 /* NSDate+EasterDate.swift in Sources */,
+				B68CE288979EC41EFAF7B3BDFE2CF1B4 /* EasterDate-iOS-dummy.m in Sources */,
+				354A2D3E9170A7784E8C356CE36D11CC /* EasterDate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -815,12 +798,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA27B1A75260D6162A48D64A77EFA060 /* Sources */ = {
+		C33646AFC48E3C1230ABFAE5F23334DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				310962791985DEE01E195E65D5C0EF14 /* EasterDate-OSX-dummy.m in Sources */,
-				0372A54211ECCBF83C954D9AB25A64C0 /* NSDate+EasterDate.swift in Sources */,
+				10F26AAE12D85A6F58A1B26FE4DF47E5 /* EasterDate-tvOS-dummy.m in Sources */,
+				FE038EAE44A1CEAF57490A0038501BBD /* EasterDate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -829,6 +812,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3E0D343E9D194A9969121659D17121F /* Pods-EasterDate Example tvOS-EasterDate Tests tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40DF5B701D3B6FE7D14A58CEC327015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95944A6196F0A1429CAA8E08546D862E /* EasterDate-OSX-dummy.m in Sources */,
+				3824031591D3402A05345448C6CFAE03 /* EasterDate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -959,7 +951,7 @@
 		};
 		11FF210083788F99328E1504736DA903 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2F04AFFCD348168959CA585BEF0D85C /* EasterDate-tvOS.xcconfig */;
+			baseConfigurationReference = E15F077FE1BFAAE2C95F8759B7051F7F /* EasterDate-tvOS.xcconfig */;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -987,7 +979,7 @@
 		};
 		174D210CB6E99F86DAFA4D1A294D6690 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F913A6311CDE887D8982B388CD37A7E0 /* EasterDate-iOS.xcconfig */;
+			baseConfigurationReference = 8A8F21F2B4CD195B82F415FDF9D7D8BE /* EasterDate-iOS.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1285,7 +1277,7 @@
 		};
 		9BB238D57D9954E8E8D2BF0EB40049A4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8A85D536A0EFE68810C652CB65DB3E7 /* EasterDate-OSX.xcconfig */;
+			baseConfigurationReference = 7EDF0403D07F869B407231D7BEBD0607 /* EasterDate-OSX.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1391,7 +1383,7 @@
 		};
 		B5BF8699C7136AA3EE52ABF6A5F5ADE7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F913A6311CDE887D8982B388CD37A7E0 /* EasterDate-iOS.xcconfig */;
+			baseConfigurationReference = 8A8F21F2B4CD195B82F415FDF9D7D8BE /* EasterDate-iOS.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1420,7 +1412,7 @@
 		};
 		B9CEA98662684EEF6AB99088824BD352 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8A85D536A0EFE68810C652CB65DB3E7 /* EasterDate-OSX.xcconfig */;
+			baseConfigurationReference = 7EDF0403D07F869B407231D7BEBD0607 /* EasterDate-OSX.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1526,7 +1518,7 @@
 		};
 		E288C76EF8A7BB4D2FD43876773401E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2F04AFFCD348168959CA585BEF0D85C /* EasterDate-tvOS.xcconfig */;
+			baseConfigurationReference = E15F077FE1BFAAE2C95F8759B7051F7F /* EasterDate-tvOS.xcconfig */;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
