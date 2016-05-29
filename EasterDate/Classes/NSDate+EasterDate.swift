@@ -12,7 +12,11 @@ extension NSDate {
     /// Returns the date of Easter Sunday in the Gregorian calendar
     /// for the specified year.
     public class func westernEasterDateForYear(_ year: Int) -> NSDate? {
-        return self.westernEasterDate(year: year)
+        #if swift(>=3.0)
+            return self.westernEasterDate(year: year)
+        #else
+            return self.westernEasterDate(year)
+        #endif
     }
 
     public class func westernEasterDate(year: Int) -> NSDate? {
@@ -57,7 +61,11 @@ extension NSDate {
     /// Returns the date of Eastern Orthodox Easter in the Julian calendar
     /// for the specified year.
     public class func easternOrthodoxEasterDateForYear(_ year: Int) -> NSDate? {
-        return self.easternOrthodoxEasterDate(year: year)
+        #if swift(>=3.0)
+            return self.easternOrthodoxEasterDate(year: year)
+        #else
+            return self.easternOrthodoxEasterDate(year)
+        #endif
     }
 
     public class func easternOrthodoxEasterDate(year: Int) -> NSDate? {

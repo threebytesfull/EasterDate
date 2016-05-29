@@ -40,10 +40,10 @@ class ViewControllerTV: UIViewController {
             let rightRecognizer = UITapGestureRecognizer(target: self, action: #selector(tapRight))
             rightRecognizer.allowedPressTypes = [NSNumber(value: UIPressType.rightArrow.rawValue)]
         #else
-            let leftRecognizer = UITapGestureRecognizer(target: self, action: #selector(tapLeft(_:)))
+            let leftRecognizer = UITapGestureRecognizer(target: self, action: #selector(tapLeft))
             leftRecognizer.allowedPressTypes = [UIPressType.LeftArrow.rawValue]
 
-            let rightRecognizer = UITapGestureRecognizer(target: self, action: #selector(tapRight(_:)))
+            let rightRecognizer = UITapGestureRecognizer(target: self, action: #selector(tapRight))
             rightRecognizer.allowedPressTypes = [UIPressType.RightArrow.rawValue]
         #endif
         self.view.addGestureRecognizer(leftRecognizer)

@@ -74,6 +74,7 @@ class ViewControllerMac: NSViewController {
         }
     }
 
+    #if swift(>=3.0)
     @IBAction func buttonClicked(sender: NSButton) {
         switch sender {
         case leftButton:
@@ -89,5 +90,22 @@ class ViewControllerMac: NSViewController {
 
         updateEasterDates()
     }
+    #else
+    @IBAction func buttonClickedWithSender(sender: NSButton) {
+        switch sender {
+        case leftButton:
+            year = max(minYear, year - 1)
+        case rightButton:
+            year = min(maxYear, year + 1)
+        default:
+            return
+        }
+
+        leftButton.enabled = year > minYear
+        rightButton.enabled = year < maxYear
+
+        updateEasterDates()
+    }
+    #endif
 }
 
