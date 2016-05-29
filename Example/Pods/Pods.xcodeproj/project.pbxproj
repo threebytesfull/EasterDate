@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		02F98B25B19ABEB451860C49A969F3AB /* Pods-EasterDate Example iOS-EasterDate Tests iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9810029295CFF2589326269B6CB860F7 /* Pods-EasterDate Example iOS-EasterDate Tests iOS-dummy.m */; };
-		0372A54211ECCBF83C954D9AB25A64C0 /* NSDate+EasterDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074A5EC67A800E25D418E893A3344D74 /* NSDate+EasterDate.swift */; };
+		0372A54211ECCBF83C954D9AB25A64C0 /* EasterDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074A5EC67A800E25D418E893A3344D74 /* EasterDate.swift */; };
 		038B766DF22FF475F1E56565D071BD90 /* Pods-EasterDate Example tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B944AE6A5DFE8D32EDDF605E9303D936 /* Pods-EasterDate Example tvOS-dummy.m */; };
 		061B805F2B9570634585B8ACF6F8026E /* Pods-EasterDate Example iOS-EasterDate Tests iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C44A573CBC1D91EDD10210E9B707419 /* Pods-EasterDate Example iOS-EasterDate Tests iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C17E6453AE9C486085007A8398D95D8 /* EasterDate-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53863821528F4F7E2C6398AAB35BCB66 /* EasterDate-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,7 +26,7 @@
 		6B1C82A2A6093463797991DCB0646073 /* Pods-EasterDate Example iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43EA08D3E427CF2749B99A456369BA41 /* Pods-EasterDate Example iOS-dummy.m */; };
 		6DF25BB202D88E62F139EFDA5535CF92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68041AB40AA845393BAF76F8AE79D917 /* Foundation.framework */; };
 		8C8C6741B018B8CA5DC5F45603E5FD7B /* EasterDate-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41DA57EEF73193E7FE3181AEA38E3C0A /* EasterDate-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91EE21D406C47FC3FBDA3AE64FA08255 /* NSDate+EasterDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074A5EC67A800E25D418E893A3344D74 /* NSDate+EasterDate.swift */; };
+		91EE21D406C47FC3FBDA3AE64FA08255 /* EasterDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074A5EC67A800E25D418E893A3344D74 /* EasterDate.swift */; };
 		96A9B04E6340DD5065E5C37C0AF0BB40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E924F36E6E48082999A556E36720D548 /* Foundation.framework */; };
 		991D5C85752A73115FB7D14B7FF67886 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B826FE27CE9F5735681445658E9BB97D /* Cocoa.framework */; };
 		A3015A5A031AC7DF00FEF3F3D007BD5E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B826FE27CE9F5735681445658E9BB97D /* Cocoa.framework */; };
@@ -34,7 +34,7 @@
 		B790B546C4819A3E2F33B0C38627154D /* EasterDate-OSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8FF690E72B61C8FDB5B6B76FDD22FB4 /* EasterDate-OSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C29DFA6BDCC5372EF1BC8D3D33B6D589 /* EasterDate-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70079BD84AD24B57FE0397FEB20B0055 /* EasterDate-iOS-dummy.m */; };
 		C88A01FD45BD050C45C7D5B875247A2D /* Pods-EasterDate Example Mac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3F722CCCE8B1E62179DC9F7A108231 /* Pods-EasterDate Example Mac-dummy.m */; };
-		CA60FD044BD4659257E9A1385A426080 /* NSDate+EasterDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074A5EC67A800E25D418E893A3344D74 /* NSDate+EasterDate.swift */; };
+		CA60FD044BD4659257E9A1385A426080 /* EasterDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074A5EC67A800E25D418E893A3344D74 /* EasterDate.swift */; };
 		E07880AD03B67ADCE297EB5496707167 /* EasterDate-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E05A7700FC38AA3D11461979542A7B08 /* EasterDate-tvOS-dummy.m */; };
 		E3E0D343E9D194A9969121659D17121F /* Pods-EasterDate Example tvOS-EasterDate Tests tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9799F17A9D3EF9EF9E10738E3676461A /* Pods-EasterDate Example tvOS-EasterDate Tests tvOS-dummy.m */; };
 		EBE8C72E8F87505010DD002E7AC7BEAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E924F36E6E48082999A556E36720D548 /* Foundation.framework */; };
@@ -91,7 +91,7 @@
 		03E4AE866622B874DE8CADDB9568205B /* Pods-EasterDate Example iOS-EasterDate Tests iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasterDate Example iOS-EasterDate Tests iOS-frameworks.sh"; sourceTree = "<group>"; };
 		05190E95516A71B1810073437C24EEE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../EasterDate-tvOS/Info.plist"; sourceTree = "<group>"; };
 		051D09F11A953092CA3898427AD6D686 /* Pods-EasterDate Example iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasterDate Example iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		074A5EC67A800E25D418E893A3344D74 /* NSDate+EasterDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSDate+EasterDate.swift"; sourceTree = "<group>"; };
+		074A5EC67A800E25D418E893A3344D74 /* EasterDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EasterDate.swift; sourceTree = "<group>"; };
 		083968B3E49D6FA60B2045371C9ABC86 /* Pods-EasterDate Example iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasterDate Example iOS-resources.sh"; sourceTree = "<group>"; };
 		08DA7FE8F5A73AA70A1D9CF963A1B2A6 /* Pods-EasterDate Example Mac-EasterDate Tests Mac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasterDate Example Mac-EasterDate Tests Mac-umbrella.h"; sourceTree = "<group>"; };
 		148F75D6C90A94FFBDD9770025BD7CD5 /* Pods-EasterDate Example Mac-EasterDate Tests Mac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasterDate Example Mac-EasterDate Tests Mac.debug.xcconfig"; sourceTree = "<group>"; };
@@ -261,7 +261,7 @@
 		0FB385FFDCC1B3E1A30E736195D38269 /* EasterDate */ = {
 			isa = PBXGroup;
 			children = (
-				FC0FCDB371EC7F163A94FBAFD623A3BE /* EasterDate */,
+				E0EBAEFC80A875D7D3FB7A484C350146 /* Sources */,
 				D7F7A3D93A9AC8CD4F513FC80B9510D9 /* Support Files */,
 			);
 			name = EasterDate;
@@ -485,20 +485,12 @@
 			path = "Example/Pods/Target Support Files/EasterDate-OSX";
 			sourceTree = "<group>";
 		};
-		E0EBAEFC80A875D7D3FB7A484C350146 /* Classes */ = {
+		E0EBAEFC80A875D7D3FB7A484C350146 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				074A5EC67A800E25D418E893A3344D74 /* NSDate+EasterDate.swift */,
+				074A5EC67A800E25D418E893A3344D74 /* EasterDate.swift */,
 			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		FC0FCDB371EC7F163A94FBAFD623A3BE /* EasterDate */ = {
-			isa = PBXGroup;
-			children = (
-				E0EBAEFC80A875D7D3FB7A484C350146 /* Classes */,
-			);
-			path = EasterDate;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -786,7 +778,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C29DFA6BDCC5372EF1BC8D3D33B6D589 /* EasterDate-iOS-dummy.m in Sources */,
-				CA60FD044BD4659257E9A1385A426080 /* NSDate+EasterDate.swift in Sources */,
+				CA60FD044BD4659257E9A1385A426080 /* EasterDate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -795,7 +787,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E07880AD03B67ADCE297EB5496707167 /* EasterDate-tvOS-dummy.m in Sources */,
-				91EE21D406C47FC3FBDA3AE64FA08255 /* NSDate+EasterDate.swift in Sources */,
+				91EE21D406C47FC3FBDA3AE64FA08255 /* EasterDate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -820,7 +812,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				310962791985DEE01E195E65D5C0EF14 /* EasterDate-OSX-dummy.m in Sources */,
-				0372A54211ECCBF83C954D9AB25A64C0 /* NSDate+EasterDate.swift in Sources */,
+				0372A54211ECCBF83C954D9AB25A64C0 /* EasterDate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
