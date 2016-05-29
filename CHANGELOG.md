@@ -1,5 +1,15 @@
 # EasterDate Change Log
 
+## 0.6.3 (2016-05-30)
+
+##### Enhancements
+
+* Rearrange documentation so automated tools can find it.
+
+##### Bug Fixes
+
+* None.
+
 ## 0.6.2 (2016-05-29)
 
 ##### Enhancements
