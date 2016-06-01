@@ -31,18 +31,6 @@ let easter = NSDate.westernEasterDate(2016)
 // easter is an NSDate
 ```
 
-To calculate the date of Eastern Orthodox Easter for a given year:
-
-```swift
-import EasterDate
-
-let easter = NSDate.easternOrthodoxEasterDate(2016)
-// easter is an NSDate
-```
-
-Note that while the calculation for Eastern Orthodox Easter is based on the
-Julian calendar, the date returned is in the Gregorian calendar.
-
 To calculate Western Easter Sunday for this year:
 
 ```swift
@@ -57,6 +45,36 @@ let year = NSCalendar.current().components([.year], from: NSDate())!.year
 
 // Get Easter for year
 let easter = NSDate.westernEasterDate(year: year)
+```
+
+#### Eastern Orthodox Easter
+
+To calculate the date of Eastern Orthodox Easter for a given year:
+
+```swift
+import EasterDate
+
+let easter = NSDate.easternOrthodoxEasterDate(2016)
+// easter is an NSDate
+```
+
+Note that while the calculation for Eastern Orthodox Easter is based on the
+Julian calendar, the date returned is in the Gregorian calendar.
+
+To calculate Eastern Orthodox Easter Sunday for this year:
+
+```swift
+// Get current year (Swift 2.2)
+let year = NSCalendar.currentCalendar().components([.Year], fromDate: NSDate()).year
+
+// Get current year (Swift 3.0)
+let year = NSCalendar.current().components([.year], from: NSDate()).year
+
+// Get current year (Swift 3.0, Linux)
+let year = NSCalendar.current().components([.year], from: NSDate())!.year
+
+// Get Easter for year
+let easter = NSDate.easternOrthodoxEasterDate(year: year)
 ```
 
 ## Examples
