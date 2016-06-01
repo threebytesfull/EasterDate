@@ -15,7 +15,7 @@ written in [Swift](https://swift.org) and runs on various platforms:
 * Swift 2.2 on iOS, tvOS, Mac OS X, Linux
 * Swift 3.0 on iOS, tvOS, Mac OS X, Linux
 
-It can be installed with [CocoaPods](https://cocoapods.org) or [Swift Package
+It can be installed with [CocoaPods](http://cocoapods.org) or [Swift Package
 Manager](https://swift.org/package-manager/).
 
 ## Usage
@@ -81,7 +81,7 @@ cd EasterDate/Example
 pod install
 ```
 
-Open the `\.xcworkspace` file in the Example directory and you can build any of
+Open the `.xcworkspace` file in the Example directory and you can build any of
 the supplied example targets.
 
 ## Linux
