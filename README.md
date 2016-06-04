@@ -111,7 +111,7 @@ a development snapshot of Swift 3.0 and run the EasterDate unit tests.
 ## Requirements
 
 This module supports Swift 2.2 and Swift 3.0 (tested so far with the
-2016-05-09-a development snapshot) on OS X, iOS, tvOS and Linux.
+2016-05-31-a development snapshot) on OS X, iOS, tvOS and Linux.
 
 ## Installation
 
