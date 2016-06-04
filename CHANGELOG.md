@@ -1,5 +1,15 @@
 # EasterDate Change Log
 
+## 0.6.4 (2016-06-04)
+
+##### Enhancements
+
+* Update build for Swift 3.0 development snapshot version 2016-05-31-a.
+
+##### Bug Fixes
+
+* Tidy up documentation.
+
 ## 0.6.3 (2016-05-30)
 
 ##### Enhancements
